@@ -17,3 +17,11 @@ var increaseValues = function(numOne, numTwo) {
   console.log('New:', largerOne, largerTwo);
 };
 // increaseValues(2, 5);
+
+// `undefined` values are handled safely
+let [firstName] = [];
+console.log('First name?', firstName);
+
+// Default values also work
+let [lastName='Smith'] = [];
+console.log('Last name?', lastName);
