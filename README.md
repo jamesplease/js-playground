@@ -1,2 +1,3 @@
-# es6-playground
-Playing around with ES6 features...
+# JS Playground
+
+A place for me to play around with ES6 features.
