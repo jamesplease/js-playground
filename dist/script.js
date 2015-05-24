@@ -118,6 +118,30 @@ function _inherits(subClass, superClass) { if (typeof superClass !== 'function' 
   // Log the result of the static method
   // console.log('Can I execute a static method?', CustomView.whatever());
 
+  // // My favorite use of destructuring is pulling out values from
+  // an `options` object passed into a method
+  var orderShirt = function orderShirt(options) {
+    var color = options.color;
+    var size = options.size;
+
+    console.log('Options:', color, size);
+  };
+
+  // orderShirt({
+  //   color: 'blue',
+  //   size: 'L'
+  // });
+
+  //
+  var increaseValues = function increaseValues(numOne, numTwo) {
+    var largerOne = numOne + 2;
+    var largerTwo = numTwo + 3;
+
+    console.log('Original:', numOne, numTwo);
+    console.log('New:', largerOne, largerTwo);
+  };
+  // increaseValues(2, 5);
+
   // // need to construct a String object explicitly to avoid auto-boxing
   // var someString = new String('hi');
 
