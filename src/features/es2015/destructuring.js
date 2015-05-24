@@ -20,8 +20,8 @@ var increaseValues = function(numOne, numTwo) {
 
 // `undefined` values are handled safely
 let [firstName] = [];
-console.log('First name?', firstName);
+// console.log('First name?', firstName);
 
 // Default values also work
 let [lastName='Smith'] = [];
-console.log('Last name?', lastName);
+// console.log('Last name?', lastName);

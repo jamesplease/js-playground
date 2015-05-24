@@ -45,8 +45,8 @@ class CustomView extends Mn.ItemView {
 var customView = new CustomView();
 
 // We render it and attach it to the body.
-customView.render();
-$('body').append(customView.el);
+// customView.render();
+// $('body').append(customView.el);
 
 // Log the result of the static method
 // console.log('Can I execute a static method?', CustomView.whatever());
