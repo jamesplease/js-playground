@@ -12,7 +12,9 @@ var myObject = {
 // In ES6 and beyond, we can also use Symbols to
 // set property names.
 
-// Create our new Symbol
+// Create our new Symbol. You can optionally pass it a name,
+// but in this case I'm just creating a nameless one. The name
+// could be useful for debugging.
 var mySymbol = Symbol();
 
 var myOtherObject = {
@@ -39,9 +41,7 @@ var myOtherObject = {
 //   console.log('sup', props);
 // });
 
-// You can get all of the symbols by using `getOwnPropertySymbols()`,
-// but Babel does not currently implement this.
-// var otherObjectSymbols = myOtherObject.getOwnPropertySymbols();
+// You can get all of the symbols by using `Object.getOwnPropertySymbols()`
+var otherObjectSymbols = Object.getOwnPropertySymbols(myOtherObject);
 
-// This will error out
-// console.log('What do I have?', otherObjectSymbols);
+console.log('What do I have?', otherObjectSymbols);
