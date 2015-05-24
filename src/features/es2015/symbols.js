@@ -43,5 +43,4 @@ var myOtherObject = {
 
 // You can get all of the symbols by using `Object.getOwnPropertySymbols()`
 var otherObjectSymbols = Object.getOwnPropertySymbols(myOtherObject);
-
-console.log('What do I have?', otherObjectSymbols);
+// console.log('What do I have?', otherObjectSymbols);
