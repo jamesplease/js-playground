@@ -1,6 +1,6 @@
-// Generators simplify the creation of iterators. Understanding
-// generators is much easier in the context of iterators, so I
-// encourage you to study those first.
+// Generators are best thought of as methods that can be paused and resumed numerous
+// times. This is in contrast to regular JavaScript methods, which, once started,
+// execute until completion.
 function* firstGenerator(i = 2) {
   yield i + 1;
   yield i + 2;
