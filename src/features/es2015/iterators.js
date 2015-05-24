@@ -55,7 +55,7 @@ var simpleIterator = {
       yield value;
     }
   }
-}
+};
 
 // console.log('simpler iterator:', [...simpleIterator]);
 
@@ -63,4 +63,3 @@ var simpleIterator = {
 // Map(), WeakMap(), Set(), WeakSet()
 // Promise.all(), Promise.race(), Array.from()
 // for-of loops, spread operators, yield*
-
