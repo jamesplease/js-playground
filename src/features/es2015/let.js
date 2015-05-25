@@ -7,11 +7,11 @@ for (var i = 0; i < 3; i++) {
 }
 
 // `i` has leaked outside of the loop
-console.log('i', typeof i);
+// console.log('i', typeof i);
 
 // With let, you can keep this from happening
 for (let j = 0; j < 3; j++) {
   console.log('j:', j);
 }
 
-console.log('j?', typeof j);
+// console.log('j?', typeof j);
